@@ -1,17 +1,19 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class = "test">
     <ion-title>
-      Tab 1
+      API working in full effect
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class = "backgroundcolor">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-button [routerLink]="['/movie']" (click)="single(1, 0)" class="center">Go To The Movies Page</ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="background-image"></div>
+
+
 </ion-content>

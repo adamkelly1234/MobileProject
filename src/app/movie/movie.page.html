@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar class = "card">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Movies with title Cooking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class = "test">
+  <ion-card *ngFor="let movie of MovieData" class = "movietext">
+    <img src = "{{movie.Poster}}"/>
+    <ion-card-header>
+      <ion-card-subtitle class = "textcolor">Title</ion-card-subtitle>
+      <ion-card-title class = "textcolor">{{movie.Title}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{movie.Year}}
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

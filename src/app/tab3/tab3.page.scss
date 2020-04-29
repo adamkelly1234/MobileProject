@@ -1,0 +1,39 @@
+.test{
+    text-align: center;
+    --background: #6495ed;
+    color: white;
+
+}
+
+.textcolor{
+
+    color: white;
+    --background: #6495ed;
+    
+}
+
+.backgroundcolor{
+    --background: #435d8c;
+    --color: white;
+    --border-color: white;
+    
+}
+
+.center{
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block !important;
+  }
+
+.center2{
+    margin-top: 11%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block !important;
+  }
+
+  .locationNum{
+      text-align: center;
+  }
+
